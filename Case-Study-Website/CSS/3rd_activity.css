@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* FOR FORMS */
+.input-responsive {
+    width: 100%;
+}
+
+.justify-content-sm-end .btn {
+    filter: drop-shadow(0px 4px 0px grey);
+}
+
+.justify-content-sm-end .btn:active {
+    transform: translateY(3px);
+}
+
+/* DISPLAY */
+.display-6 {
+    font-size: 10em;
+}
+
+/* FOR THE CARTESIAN PLANE */
+#canvas_1 {
+    width: 100%;
+    height: 500px;
+    display: block;
+    position: relative;
+    border: 1px solid #d3d3d3;
+}
+
+/* For Intro */
+.above-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    transition: ease-out 1s;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+/* For Intro, PADDING */
+.intro-padding {
+    padding: 15%;
+}
+
+/* TOP IMAGE */
+.top-image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    transition: ease-out 1s;
+    filter:blur(0.2px);
+    background-color: wheat;
+}
+
+.img-cover { 
+    width: 100%;
+    height: 100vh;
+    top:0;
+    left:0;
+    position:absolute;
+    object-fit: cover;
+    object-position:center;
+}
+
+.contrast {
+    filter: drop-shadow(1px 1px 0px #ffffff);
+}
+
+.bg-light {
+    opacity: 0.8 !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px);
+}
+
+/* FILL Making Cards */
+#card-img-index{
+    object-fit: cover;
+    width: 100%;
+    height: 10em;
+}
+
+/* HOME BTN */
+#HomeBTN {
+    height: 1.5em;
+    width: 10em;
+    margin-bottom: 0em;
+    padding: 0em;
+    opacity: 0.2;
+    filter: drop-shadow(0px 4px 0px grey);
+    overflow: hidden;
+    position: relative;
+    transition: ease-out 0s;
+    transition-delay: 1s;
+}
+
+#HomeBTN:hover {
+    height: 2em;
+    width: 100%;
+    padding: 0.1em 2em;
+    opacity: 1;
+    overflow: hidden;
+    transition: ease-out 1s;
+}
+
+#HomeBTN:active {
+    transition: ease-out 0s;
+    transform: translateY(3px);
+}
