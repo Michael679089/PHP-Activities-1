@@ -1,4 +1,4 @@
-#Michael's Petshop
+# Michael's Petshop
 
 Welcome to my mock-up digital petshop.
 This petshop provides high quality grooming services for your pets ranging from different kinds of Cats and Dogs. Our petshop uses a appointment service system so 
